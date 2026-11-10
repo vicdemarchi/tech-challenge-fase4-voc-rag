@@ -1,0 +1,872 @@
+[
+  {
+    "question": "Clientes receberam um produto diferente do que compraram?",
+    "filters": {
+      "scores": [
+        1,
+        2
+      ]
+    },
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "backend": "llamacpp",
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "D43ffe8d8a7ac0d2d",
+        "review_id": "6137736e63c63b146f3012dd3419e657",
+        "order_id": "8283cff259b1a37c914671e1385a2f72",
+        "source_row": 39584,
+        "review_score": 1,
+        "text": "Recebi o produto diferente do que foi anunciado e comprado.",
+        "categories": [
+          "beleza_saude"
+        ],
+        "purchase_date": "2017-11-29",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Recebi o produto diferente do que foi anunciado e comprado.",
+        "chunk_id": "D43ffe8d8a7ac0d2d_0",
+        "semantic_score": 0.75997,
+        "lexical_score": 0.35027,
+        "rrf_score": 0.030303
+      },
+      {
+        "doc_id": "D5dcd295b8442ca02",
+        "review_id": "4e7db7d9bdafdd99952285cc366d108a",
+        "order_id": "b360e877916b9d6b03877df56551e4dc",
+        "source_row": 85184,
+        "review_score": 1,
+        "text": "Produto Diferente — O produto que recebi é diferente do produto anunciado.",
+        "categories": [
+          "telefonia"
+        ],
+        "purchase_date": "2018-07-03",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produto Diferente — O produto que recebi é diferente do produto anunciado.",
+        "chunk_id": "D5dcd295b8442ca02_0",
+        "semantic_score": 0.76636,
+        "lexical_score": 0.31019,
+        "rrf_score": 0.029514
+      },
+      {
+        "doc_id": "D00417fc6e90ee4fe",
+        "review_id": "d8ee84e8b2c300ba039fa2dd12a231c2",
+        "order_id": "24b5077ff1a5cfb489ffaf2a6ae71f43",
+        "source_row": 58041,
+        "review_score": 1,
+        "text": "Recebi o produto diferente do que comprei",
+        "categories": [
+          "consoles_games"
+        ],
+        "purchase_date": "2017-06-05",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Recebi o produto diferente do que comprei",
+        "chunk_id": "D00417fc6e90ee4fe_0",
+        "semantic_score": 0.70823,
+        "lexical_score": 0.50781,
+        "rrf_score": 0.028589
+      },
+      {
+        "doc_id": "Dce5e14fe1fc65075",
+        "review_id": "9a9162d4873a41a1b7a4a2ff2e548ba2",
+        "order_id": "aa62e67d7dbefd7e1331d5975f61a404",
+        "source_row": 87124,
+        "review_score": 1,
+        "text": "Produto diferente do que — O produto recebido é diferente do especificado no site.",
+        "categories": [
+          "climatizacao"
+        ],
+        "purchase_date": "2018-06-17",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produto diferente do que — O produto recebido é diferente do especificado no site.",
+        "chunk_id": "Dce5e14fe1fc65075_0",
+        "semantic_score": 0.70413,
+        "lexical_score": 0.36071,
+        "rrf_score": 0.027289
+      },
+      {
+        "doc_id": "D1f398f3712bad749",
+        "review_id": "c94fe7161f7932281babee672d4b4248",
+        "order_id": "8440ebc9a2a4aaa712d4064c35e52995",
+        "source_row": 80940,
+        "review_score": 1,
+        "text": "O produto chegou diferente do comprado",
+        "categories": [
+          "telefonia"
+        ],
+        "purchase_date": "2017-12-05",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "O produto chegou diferente do comprado",
+        "chunk_id": "D1f398f3712bad749_0",
+        "semantic_score": 0.80065,
+        "lexical_score": 0.20327,
+        "rrf_score": 0.025933
+      },
+      {
+        "doc_id": "D20e55201ec11db67",
+        "review_id": "8f451e1cf55dd3f4a5c6e9607a07c561",
+        "order_id": "47c29eebd9fb0e4d67c674f78e396be4",
+        "source_row": 70966,
+        "review_score": 2,
+        "text": "Bom vendedor , porém foi entregue um produto diferente da compra efetuada.",
+        "categories": [
+          "esporte_lazer"
+        ],
+        "purchase_date": "2017-11-03",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Bom vendedor , porém foi entregue um produto diferente da compra efetuada.",
+        "chunk_id": "D20e55201ec11db67_0",
+        "semantic_score": 0.79465,
+        "lexical_score": 0.20613,
+        "rrf_score": 0.025873
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": false,
+      "findings": [
+        {
+          "claim": "Há relato de recebimento de produto diferente do comprado",
+          "doc_id": "D43ffe8d8a7ac0d2d",
+          "quote": "Recebi o produto diferente do que foi anunciado e comprado."
+        },
+        {
+          "claim": "Há relato de recebimento de produto diferente do comprado",
+          "doc_id": "D5dcd295b8442ca02",
+          "quote": "Produto Diferente — O produto que recebi é diferente do produto anunciado."
+        },
+        {
+          "claim": "Há relato de recebimento de produto diferente do comprado",
+          "doc_id": "D00417fc6e90ee4fe",
+          "quote": "Recebi o produto diferente do que comprei"
+        }
+      ]
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 15.736,
+    "expected_status": "answered",
+    "status_match": false
+  },
+  {
+    "question": "O que dizem os clientes que receberam apenas parte do pedido?",
+    "filters": {
+      "scores": [
+        1,
+        2
+      ]
+    },
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "backend": "llamacpp",
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "D3aeffb6814bc500e",
+        "review_id": "81e82856b0bca7505d0dcbaeb5ddcf98",
+        "order_id": "c432657bb18ddf7f48b7227db09048d4",
+        "source_row": 64999,
+        "review_score": 1,
+        "text": "Fiz o pedido de produtos e foram entregue apenas parte deles",
+        "categories": [
+          "consoles_games"
+        ],
+        "purchase_date": "2017-12-12",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Fiz o pedido de produtos e foram entregue apenas parte deles",
+        "chunk_id": "D3aeffb6814bc500e_0",
+        "semantic_score": 0.6299,
+        "lexical_score": 0.20674,
+        "rrf_score": 0.031054
+      },
+      {
+        "doc_id": "Dbf8d8df598acc6c8",
+        "review_id": "c84049c42940addc4d9b725ee5456da6",
+        "order_id": "bad80abf6bc799b1c731a90f1a761689",
+        "source_row": 92799,
+        "review_score": 2,
+        "text": "Recebi pedido incompleto — Foi entregue somente parte do pedido, sendo que os produtos eram da mesma loja",
+        "categories": [
+          "informatica_acessorios"
+        ],
+        "purchase_date": "2018-08-02",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Recebi pedido incompleto — Foi entregue somente parte do pedido, sendo que os produtos eram da mesma loja",
+        "chunk_id": "Dbf8d8df598acc6c8_0",
+        "semantic_score": 0.61709,
+        "lexical_score": 0.17618,
+        "rrf_score": 0.029514
+      },
+      {
+        "doc_id": "D15123b37cf2d9d6e",
+        "review_id": "b7122dccc182fc512c229ac036001b4a",
+        "order_id": "30f54cfb85a2cf596ee5b7a589d3ffa0",
+        "source_row": 61507,
+        "review_score": 2,
+        "text": "Recebi somente parte do pedido.",
+        "categories": [
+          "relogios_presentes"
+        ],
+        "purchase_date": "2017-11-22",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Recebi somente parte do pedido.",
+        "chunk_id": "D15123b37cf2d9d6e_0",
+        "semantic_score": 0.59876,
+        "lexical_score": 0.28798,
+        "rrf_score": 0.028589
+      },
+      {
+        "doc_id": "D3e280369a18b7ad0",
+        "review_id": "3cd67e13e3b80b9ef8a966427e41d9f0",
+        "order_id": "701ba4e30193470253a5e099210a2054",
+        "source_row": 92323,
+        "review_score": 1,
+        "text": "parte do produto foi entregue, falta um relogio, embora nesse email conste que foram entregues os tres que fazem parte do pedido.A nota fiscal tb consta apenas dois relogios",
+        "categories": [
+          "relogios_presentes"
+        ],
+        "purchase_date": "2017-10-29",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "parte do produto foi entregue, falta um relogio, embora nesse email conste que foram entregues os tres que fazem parte do pedido.A nota fiscal tb consta apenas dois relogios",
+        "chunk_id": "D3e280369a18b7ad0_0",
+        "semantic_score": 0.59814,
+        "lexical_score": 0.16962,
+        "rrf_score": 0.027149
+      },
+      {
+        "doc_id": "Dd9afcc5ebe6308e0",
+        "review_id": "66179b1ca078cdb08c6ca238a0a4c654",
+        "order_id": "8750169950344f2a94fa7d156daa3097",
+        "source_row": 18877,
+        "review_score": 1,
+        "text": "Se realmente tivenssem preocupação com os clientes nao deixariam a desejar em questao as entrega pois como que outros pedidos que foram feito no mesmo lugar e dia chegaram e eles colocam dificuldades.",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2018-03-20",
+        "order_status": "delivered",
+        "late_delivery": true,
+        "passage": "Se realmente tivenssem preocupação com os clientes nao deixariam a desejar em questao as entrega pois como que outros pedidos que foram feito no mesmo lugar e dia chegaram e eles colocam dificuldades.",
+        "chunk_id": "Dd9afcc5ebe6308e0_0",
+        "semantic_score": 0.64152,
+        "lexical_score": 0.08004,
+        "rrf_score": 0.025484
+      },
+      {
+        "doc_id": "Ddda81e8c37cb02cc",
+        "review_id": "7fb985b85b91d0b305fecc3531c9b371",
+        "order_id": "64607b4e862b1084d71a7ee6d8b2622d",
+        "source_row": 27903,
+        "review_score": 1,
+        "text": "Só recebi um item do pedido",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2018-03-06",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Só recebi um item do pedido",
+        "chunk_id": "Ddda81e8c37cb02cc_0",
+        "semantic_score": 0.58776,
+        "lexical_score": 0.11738,
+        "rrf_score": 0.023025
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": false,
+      "findings": []
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 9.815,
+    "expected_status": "answered",
+    "status_match": false
+  },
+  {
+    "question": "Quais elogios mencionam a qualidade dos produtos?",
+    "filters": {
+      "scores": [
+        4,
+        5
+      ]
+    },
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "backend": "llamacpp",
+    "status": "answered",
+    "findings": [
+      {
+        "claim": "Uma avaliação elogia a qualidade dos produtos.",
+        "doc_id": "D60e00ba3dc6e8121",
+        "quote": "produtos de qualidade"
+      },
+      {
+        "claim": "Recomendo — Produtos de qualidade.",
+        "doc_id": "D1908b2408c28d551",
+        "quote": "Recomendo — Produtos de qualidade"
+      },
+      {
+        "claim": "Produtos de boa qualidade.",
+        "doc_id": "D1af071e41fa6a24e",
+        "quote": "Produtos de boa qualidade ,"
+      }
+    ],
+    "evidence": [
+      {
+        "doc_id": "D60e00ba3dc6e8121",
+        "review_id": "2e41aff5540a25f4ae6d0fd675458bb5",
+        "order_id": "714e2644ab665027234ed7a6b3e82274",
+        "source_row": 10438,
+        "review_score": 5,
+        "text": "produtos de qualidade",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2017-08-11",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "produtos de qualidade",
+        "chunk_id": "D60e00ba3dc6e8121_0",
+        "semantic_score": 0.81719,
+        "lexical_score": 0.16393,
+        "rrf_score": 0.02739
+      },
+      {
+        "doc_id": "D1908b2408c28d551",
+        "review_id": "3d2e151da275e5a6c1eba0d887bd8414",
+        "order_id": "826c215c77d0299238e4a2d52a8f5a99",
+        "source_row": 53382,
+        "review_score": 5,
+        "text": "Recomendo — Produtos de qualidade",
+        "categories": [
+          "utilidades_domesticas"
+        ],
+        "purchase_date": "2018-05-30",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Recomendo — Produtos de qualidade",
+        "chunk_id": "D1908b2408c28d551_0",
+        "semantic_score": 0.81171,
+        "lexical_score": 0.12383,
+        "rrf_score": 0.024394
+      },
+      {
+        "doc_id": "D1af071e41fa6a24e",
+        "review_id": "a948b3b15a2d1011e0380b3948ba783a",
+        "order_id": "572840084761674356f93543109c23c3",
+        "source_row": 74972,
+        "review_score": 4,
+        "text": "Produtos de boa qualidade ,",
+        "categories": [
+          "telefonia"
+        ],
+        "purchase_date": "2018-04-02",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produtos de boa qualidade ,",
+        "chunk_id": "D1af071e41fa6a24e_0",
+        "semantic_score": 0.78313,
+        "lexical_score": 0.1371,
+        "rrf_score": 0.022575
+      },
+      {
+        "doc_id": "D725cbc3a87306771",
+        "review_id": "b3d919d72cc9aaba9f80678d6230c650",
+        "order_id": "f232f2ea81a3f61313f6bb0f759e624d",
+        "source_row": 39729,
+        "review_score": 5,
+        "text": "Produtos de boa qualidade.",
+        "categories": [
+          "telefonia"
+        ],
+        "purchase_date": "2017-06-13",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produtos de boa qualidade.",
+        "chunk_id": "D725cbc3a87306771_0",
+        "semantic_score": 0.75955,
+        "lexical_score": 0.1371,
+        "rrf_score": 0.01882
+      },
+      {
+        "doc_id": "D9f3baa5b415507b9",
+        "review_id": "c899c8813995b5e0620eda0120294e91",
+        "order_id": "259b2f71f29e6e67c6c737bb11e9b0a3",
+        "source_row": 22491,
+        "review_score": 5,
+        "text": "Produtos de qualidade... recomendadíssimo",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2017-09-17",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produtos de qualidade... recomendadíssimo",
+        "chunk_id": "D9f3baa5b415507b9_0",
+        "semantic_score": 0.77388,
+        "lexical_score": 0.10353,
+        "rrf_score": 0.018296
+      },
+      {
+        "doc_id": "D4250957bb632da0c",
+        "review_id": "f47a81cac00b631d030e2384dabb4462",
+        "order_id": "8e2fa0b77725b0b8d060123e347344fd",
+        "source_row": 27322,
+        "review_score": 5,
+        "text": "Entrega super rápida e a qualidade dos produtos muito boa.",
+        "categories": [
+          "fashion_bolsas_e_acessorios"
+        ],
+        "purchase_date": "2017-09-08",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Entrega super rápida e a qualidade dos produtos muito boa.",
+        "chunk_id": "D4250957bb632da0c_0",
+        "semantic_score": 0.56225,
+        "lexical_score": 0.4119,
+        "rrf_score": 0.016393
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": true,
+      "findings": [
+        {
+          "claim": "Uma avaliação elogia a qualidade dos produtos.",
+          "doc_id": "D60e00ba3dc6e8121",
+          "quote": "produtos de qualidade"
+        },
+        {
+          "claim": "Recomendo — Produtos de qualidade.",
+          "doc_id": "D1908b2408c28d551",
+          "quote": "Recomendo — Produtos de qualidade"
+        },
+        {
+          "claim": "Produtos de boa qualidade.",
+          "doc_id": "D1af071e41fa6a24e",
+          "quote": "Produtos de boa qualidade ,"
+        }
+      ]
+    },
+    "verification": {
+      "supported_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Todos os achados são sustentados pela citação e mencionam elogios relacionados à qualidade dos produtos."
+    },
+    "reason": null,
+    "latency_seconds": 21.411,
+    "expected_status": "answered",
+    "status_match": true
+  },
+  {
+    "question": "Qual combustível é utilizado nos caminhões de entrega?",
+    "filters": {},
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "backend": "llamacpp",
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "Db3c96b38aa066155",
+        "review_id": "bdf5a6725bd52d7cce30a0d5e6f2a4e0",
+        "order_id": "cca79f1e5c4dcf95bfadc53c7a97b4ff",
+        "source_row": 75102,
+        "review_score": 4,
+        "text": "Aquecedor a gas",
+        "categories": [
+          "eletrodomesticos"
+        ],
+        "purchase_date": "2018-04-17",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Aquecedor a gas",
+        "chunk_id": "Db3c96b38aa066155_0",
+        "semantic_score": 0.60194,
+        "lexical_score": 0.0,
+        "rrf_score": 0.016393
+      },
+      {
+        "doc_id": "Dc65ccbb01665b6db",
+        "review_id": "e8a7de56575f45bfff67b585209c037f",
+        "order_id": "f9198719b5e6149a3191c420285a7245",
+        "source_row": 46145,
+        "review_score": 1,
+        "text": "Prazo de entrega",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2018-05-31",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Prazo de entrega",
+        "chunk_id": "Dc65ccbb01665b6db_0",
+        "semantic_score": 0.38425,
+        "lexical_score": 0.2178,
+        "rrf_score": 0.016393
+      },
+      {
+        "doc_id": "Dc4bded0824ef7bbd",
+        "review_id": "9740c39fe70be3fdd5b610c34358a278",
+        "order_id": "be73d4698f2f4939662dd7788cf3dad3",
+        "source_row": 96793,
+        "review_score": 2,
+        "text": "Até as que dão no lava car e postos de gasolina são melhores.",
+        "categories": [
+          "automotivo"
+        ],
+        "purchase_date": "2017-07-14",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Até as que dão no lava car e postos de gasolina são melhores.",
+        "chunk_id": "Dc4bded0824ef7bbd_0",
+        "semantic_score": 0.56115,
+        "lexical_score": 0.00715,
+        "rrf_score": 0.016129
+      },
+      {
+        "doc_id": "Da6019c9ac49edc8b",
+        "review_id": "6d58ce34b52614647bda4b987b6193c9",
+        "order_id": "f11b670018cde48868c96b03c4d3d1ce",
+        "source_row": 16906,
+        "review_score": 3,
+        "text": "entrega — Favor procurar utra transportadora...Correios sem qualidade.",
+        "categories": [
+          "ferramentas_jardim",
+          "moveis_decoracao"
+        ],
+        "purchase_date": "2018-07-28",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "entrega — Favor procurar utra transportadora...Correios sem qualidade.",
+        "chunk_id": "Da6019c9ac49edc8b_0",
+        "semantic_score": 0.5585,
+        "lexical_score": 0.01162,
+        "rrf_score": 0.015873
+      },
+      {
+        "doc_id": "Dbba23c21667d40ff",
+        "review_id": "e7b23b015000d93205923171b39862d9",
+        "order_id": "979f8ea562e84d3ed962b250fc08976f",
+        "source_row": 73864,
+        "review_score": 4,
+        "text": "entregas via transportadora muito demorada",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2017-06-17",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "entregas via transportadora muito demorada",
+        "chunk_id": "Dbba23c21667d40ff_0",
+        "semantic_score": 0.55598,
+        "lexical_score": 0.0,
+        "rrf_score": 0.015625
+      },
+      {
+        "doc_id": "D7baf276f629d28ce",
+        "review_id": "54503553c165570e6954ef882de20d20",
+        "order_id": "77e62c3d5d4bc9c33f9fbab23755728e",
+        "source_row": 85554,
+        "review_score": 3,
+        "text": "Nas orientações sobre utilização do produto não há qualquer informação sobre abastecimento do gás butano. Como é feito, onde comprar o refil, etc ... Descobri perguntando aos amigos fumantes...",
+        "categories": [
+          "utilidades_domesticas"
+        ],
+        "purchase_date": "2018-05-25",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Nas orientações sobre utilização do produto não há qualquer informação sobre abastecimento do gás butano. Como é feito, onde comprar o refil, etc ... Descobri perguntando aos amigos fumantes...",
+        "chunk_id": "D7baf276f629d28ce_0",
+        "semantic_score": 0.52532,
+        "lexical_score": 0.0,
+        "rrf_score": 0.015385
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": false,
+      "findings": []
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 9.733,
+    "expected_status": "abstained",
+    "status_match": true
+  },
+  {
+    "question": "Qual era a senha do sistema de atendimento da loja?",
+    "filters": {},
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "backend": "llamacpp",
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "D59564cc99371316a",
+        "review_id": "fd79cc4422c1831c888d1e394c0a3db4",
+        "order_id": "a3316b63c1f065d129b524f658cce198",
+        "source_row": 89648,
+        "review_score": 5,
+        "text": "atrazo por culpa do correio. loja honrou compromisso recomendo",
+        "categories": [
+          "informatica_acessorios"
+        ],
+        "purchase_date": "2018-02-17",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "atrazo por culpa do correio. loja honrou compromisso recomendo",
+        "chunk_id": "D59564cc99371316a_0",
+        "semantic_score": 0.65595,
+        "lexical_score": 0.02303,
+        "rrf_score": 0.016393
+      },
+      {
+        "doc_id": "Dfe29fb25614a424f",
+        "review_id": "aea26a20f1f51a0059bef9115dd105c3",
+        "order_id": "304d09edb1e5147a08dde21e0efc3443",
+        "source_row": 74988,
+        "review_score": 5,
+        "text": "Ótimo sistema de entrega",
+        "categories": [
+          "relogios_presentes"
+        ],
+        "purchase_date": "2017-08-23",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Ótimo sistema de entrega",
+        "chunk_id": "Dfe29fb25614a424f_0",
+        "semantic_score": 0.40097,
+        "lexical_score": 0.32616,
+        "rrf_score": 0.016393
+      },
+      {
+        "doc_id": "D94bc0a1ca4082946",
+        "review_id": "af9e4ef240e152378b2aaac76a63eff1",
+        "order_id": "727faa6b0b07d753b487413d43e0b770",
+        "source_row": 54737,
+        "review_score": 5,
+        "text": "Muito bom o atendimento da loja. Recebi o produto antes do prazo.",
+        "categories": [
+          "malas_acessorios"
+        ],
+        "purchase_date": "2017-02-19",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Muito bom o atendimento da loja. Recebi o produto antes do prazo.",
+        "chunk_id": "D94bc0a1ca4082946_0",
+        "semantic_score": 0.56415,
+        "lexical_score": 0.3164,
+        "rrf_score": 0.016129
+      },
+      {
+        "doc_id": "Deaf7a9de32baf804",
+        "review_id": "25797d45a4e622c827ed6511a8e2aaf0",
+        "order_id": "0718c5bbf159e96715ef033576c56316",
+        "source_row": 56127,
+        "review_score": 5,
+        "text": "Essa loja entregou o produto solicitado .",
+        "categories": [
+          "moveis_decoracao"
+        ],
+        "purchase_date": "2017-08-06",
+        "order_status": "delivered",
+        "late_delivery": true,
+        "passage": "Essa loja entregou o produto solicitado .",
+        "chunk_id": "Deaf7a9de32baf804_0",
+        "semantic_score": 0.63541,
+        "lexical_score": 0.02932,
+        "rrf_score": 0.016129
+      },
+      {
+        "doc_id": "D56bf6785b6c24324",
+        "review_id": "daaaf9b939433dfba6377055b246489c",
+        "order_id": "94f522c26f2681ad053b999e34e7b317",
+        "source_row": 52417,
+        "review_score": 2,
+        "text": "Gostaria de sabe o que aconteceu com meu produto estou desepicionada com as lojas lannister.Preciso urgente de uma posição da loja pois a primeira prestação no cartão está sendo paga.",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2018-03-04",
+        "order_status": "delivered",
+        "late_delivery": true,
+        "passage": "Gostaria de sabe o que aconteceu com meu produto estou desepicionada com as lojas lannister.Preciso urgente de uma posição da loja pois a primeira prestação no cartão está sendo paga.",
+        "chunk_id": "D56bf6785b6c24324_0",
+        "semantic_score": 0.63092,
+        "lexical_score": 0.05358,
+        "rrf_score": 0.015873
+      },
+      {
+        "doc_id": "D90f54a482d2b40c6",
+        "review_id": "dc261d4e37932211825f9d9eacb05d4a",
+        "order_id": "fa4e39af0cabdc0f91adcba174a63b69",
+        "source_row": 56983,
+        "review_score": 5,
+        "text": "Produto bem embalado, e atendimento da loja perfeito",
+        "categories": [
+          "informatica_acessorios"
+        ],
+        "purchase_date": "2017-04-13",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produto bem embalado, e atendimento da loja perfeito",
+        "chunk_id": "D90f54a482d2b40c6_0",
+        "semantic_score": 0.52646,
+        "lexical_score": 0.27827,
+        "rrf_score": 0.015873
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": false,
+      "findings": []
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 9.641,
+    "expected_status": "abstained",
+    "status_match": true
+  },
+  {
+    "question": "Qual era a temperatura do depósito onde o produto ficou armazenado?",
+    "filters": {},
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "backend": "llamacpp",
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "D22a07e905b64ba7c",
+        "review_id": "1d640ca8a896155ae11661908085910e",
+        "order_id": "704be8bf8fd6f9246d75c2e09734cdf7",
+        "source_row": 88119,
+        "review_score": 3,
+        "text": "ao mantem a temperatura",
+        "categories": [
+          "utilidades_domesticas"
+        ],
+        "purchase_date": "2018-06-11",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "ao mantem a temperatura",
+        "chunk_id": "D22a07e905b64ba7c_0",
+        "semantic_score": 0.6693,
+        "lexical_score": 0.14571,
+        "rrf_score": 0.030579
+      },
+      {
+        "doc_id": "D99111648735bac46",
+        "review_id": "ab4b5da348bdf1c76105c168f1f03d61",
+        "order_id": "386b7bf21f38606191446a1c627e2de5",
+        "source_row": 39753,
+        "review_score": 5,
+        "text": "Produto veio como descrito, estou impressionada com a garrafinha, realmente mantêm a temperatura do líquido por bastante tempo.",
+        "categories": [
+          "papelaria"
+        ],
+        "purchase_date": "2018-01-29",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produto veio como descrito, estou impressionada com a garrafinha, realmente mantêm a temperatura do líquido por bastante tempo.",
+        "chunk_id": "D99111648735bac46_0",
+        "semantic_score": 0.62676,
+        "lexical_score": 0.14939,
+        "rrf_score": 0.029851
+      },
+      {
+        "doc_id": "D4497d211dca1cc0a",
+        "review_id": "21aef6132a32ce3729af922fc6d5689b",
+        "order_id": "5c38655d217f80fb8ad2c39a7c0a816b",
+        "source_row": 49968,
+        "review_score": 4,
+        "text": "Termômetro de forno — Otimo produto para quem cozinha e precisa controlar a temperatura do forno.",
+        "categories": [
+          "moveis_decoracao"
+        ],
+        "purchase_date": "2018-08-13",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Termômetro de forno — Otimo produto para quem cozinha e precisa controlar a temperatura do forno.",
+        "chunk_id": "D4497d211dca1cc0a_0",
+        "semantic_score": 0.56242,
+        "lexical_score": 0.15649,
+        "rrf_score": 0.02886
+      },
+      {
+        "doc_id": "D4b60b4e85b557d50",
+        "review_id": "f327f4d8d10dbdf26edc2a8b417c1aab",
+        "order_id": "0bfa29f2e2ca95b17ab75e7ecf1f9df8",
+        "source_row": 33295,
+        "review_score": 5,
+        "text": "O produto é péssimo, não conserva a temperatura do líquido e ainda fica quente por fora. Entretanto não o que reclamar da loja: entregou bem antes do prazo.",
+        "categories": [
+          "nao_informada"
+        ],
+        "purchase_date": "2017-05-30",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "O produto é péssimo, não conserva a temperatura do líquido e ainda fica quente por fora. Entretanto não o que reclamar da loja: entregou bem antes do prazo.",
+        "chunk_id": "D4b60b4e85b557d50_0",
+        "semantic_score": 0.59703,
+        "lexical_score": 0.14076,
+        "rrf_score": 0.028778
+      },
+      {
+        "doc_id": "De1a5eac848727059",
+        "review_id": "5b08384f7c963eff217914c4759752dd",
+        "order_id": "d4e497fbb372f7fa8565a310a7243b53",
+        "source_row": 64580,
+        "review_score": 1,
+        "text": "O produto veio com o marcador de temperatura quebrado",
+        "categories": [
+          "cool_stuff"
+        ],
+        "purchase_date": "2018-07-05",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "O produto veio com o marcador de temperatura quebrado",
+        "chunk_id": "De1a5eac848727059_0",
+        "semantic_score": 0.68396,
+        "lexical_score": 0.10991,
+        "rrf_score": 0.027757
+      },
+      {
+        "doc_id": "Da03ca04904ae8ff2",
+        "review_id": "f5388e20b7d050a39e5a42812fbd213a",
+        "order_id": "a509a0a8522e394f8a140c7e3046731d",
+        "source_row": 73873,
+        "review_score": 4,
+        "text": "Acho q a empresa poderia colocar a temperatura na especificação do produto, algo como: atinge a temperatura X em tanto tempo, Ou pelo menos, a temperatura máxima atingida, bem como o consumo em KW/h",
+        "categories": [
+          "moveis_decoracao"
+        ],
+        "purchase_date": "2017-07-09",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Acho q a empresa poderia colocar a temperatura na especificação do produto, algo como: atinge a temperatura X em tanto tempo, Ou pelo menos, a temperatura máxima atingida, bem como o consumo em KW/h",
+        "chunk_id": "Da03ca04904ae8ff2_0",
+        "semantic_score": 0.68572,
+        "lexical_score": 0.09945,
+        "rrf_score": 0.027382
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": false,
+      "findings": []
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 9.909,
+    "expected_status": "abstained",
+    "status_match": true
+  }
+]

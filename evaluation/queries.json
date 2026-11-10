@@ -1,0 +1,10 @@
+[
+ {"id":"Q01","split":"dev","question":"O que os clientes relatam sobre atrasos na entrega?","scores":[1,2],"intent":"Relatos explícitos de atraso no recebimento"},
+ {"id":"Q02","split":"dev","question":"Quais relatos mencionam produtos quebrados ou danificados?","scores":[1,2],"intent":"Produto chegou quebrado, avariado ou danificado"},
+ {"id":"Q03","split":"dev","question":"Quais elogios se referem à entrega antes do prazo?","scores":[4,5],"intent":"Elogio explícito à antecipação da entrega"},
+ {"id":"Q04","split":"test","question":"Clientes receberam um produto diferente do que compraram?","scores":[1,2],"intent":"Item, cor ou modelo recebido difere do pedido"},
+ {"id":"Q05","split":"test","question":"O que dizem os clientes que receberam apenas parte do pedido?","scores":[1,2],"intent":"Faltam itens ou unidades no pedido recebido"},
+ {"id":"Q06","split":"test","question":"Quais elogios mencionam a qualidade dos produtos?","scores":[4,5],"intent":"Elogio explícito à qualidade do produto"},
+ {"id":"Q07","split":"test","question":"Há relatos de dificuldade no atendimento ao cliente?","scores":[1,2],"intent":"Reclamação explícita sobre suporte, contato ou atendimento"},
+ {"id":"Q08","split":"test","question":"Quais clientes relatam não ter recebido a compra?","scores":[1,2],"intent":"Não recebimento explícito do pedido ou produto"}
+]

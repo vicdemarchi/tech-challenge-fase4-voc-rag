@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+sentence-transformers==6.2.0
+transformers==5.22.2
+torch==2.15.0+cpu
+tokenizers==0.23.3
+streamlit==1.67.0
+pytest==9.2.0

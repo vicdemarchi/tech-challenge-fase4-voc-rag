@@ -1,0 +1,661 @@
+[
+  {
+    "question": "O que os clientes relatam sobre atrasos na entrega?",
+    "filters": {
+      "scores": [
+        1,
+        2
+      ]
+    },
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "Dab27851cf3562820",
+        "review_id": "0fc42b14539f4177f534382d69d82d3c",
+        "order_id": "5510c1adb5cc6262d2fd7ce904b6e8f4",
+        "source_row": 7573,
+        "review_score": 1,
+        "text": "demora na entrega",
+        "categories": [
+          "beleza_saude"
+        ],
+        "purchase_date": "2018-05-20",
+        "order_status": "delivered",
+        "late_delivery": true,
+        "passage": "demora na entrega",
+        "chunk_id": "Dab27851cf3562820_0",
+        "semantic_score": 0.8019,
+        "lexical_score": 0.19705,
+        "rrf_score": 0.031281
+      },
+      {
+        "doc_id": "De32de68da0aa3899",
+        "review_id": "a94eee8faad95408cd413c7cd3d1caa0",
+        "order_id": "bb5ab09b0b5c111c6355e7c17d7bd186",
+        "source_row": 31215,
+        "review_score": 1,
+        "text": "demora na entrega .",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2017-11-21",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "demora na entrega .",
+        "chunk_id": "De32de68da0aa3899_0",
+        "semantic_score": 0.77237,
+        "lexical_score": 0.19705,
+        "rrf_score": 0.028992
+      },
+      {
+        "doc_id": "D264d4aef90430ef9",
+        "review_id": "72926e5236768ffc912764ca429d0e00",
+        "order_id": "1d6df969542603d9f097e871bff9a9b7",
+        "source_row": 12885,
+        "review_score": 1,
+        "text": "Muita demora na entrega",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2018-02-13",
+        "order_status": "delivered",
+        "late_delivery": true,
+        "passage": "Muita demora na entrega",
+        "chunk_id": "D264d4aef90430ef9_0",
+        "semantic_score": 0.78648,
+        "lexical_score": 0.14913,
+        "rrf_score": 0.027013
+      },
+      {
+        "doc_id": "D7ef2cc39951707bb",
+        "review_id": "c0ea8675636ac591666a0c6298a2b5da",
+        "order_id": "43e8cdbf9dd6228a4f277835f9176770",
+        "source_row": 67360,
+        "review_score": 1,
+        "text": "demora na entrega do produto",
+        "categories": [
+          "cool_stuff"
+        ],
+        "purchase_date": "2017-10-18",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "demora na entrega do produto",
+        "chunk_id": "D7ef2cc39951707bb_0",
+        "semantic_score": 0.75775,
+        "lexical_score": 0.16115,
+        "rrf_score": 0.025709
+      },
+      {
+        "doc_id": "D0131011c4309d5e5",
+        "review_id": "49cb1b45e23f07f438b471464c97be39",
+        "order_id": "43540d468d10c89bf259ac47151f3ff5",
+        "source_row": 47123,
+        "review_score": 2,
+        "text": "Muita demora na entrega.",
+        "categories": [
+          "brinquedos"
+        ],
+        "purchase_date": "2018-01-13",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Muita demora na entrega.",
+        "chunk_id": "D0131011c4309d5e5_0",
+        "semantic_score": 0.72842,
+        "lexical_score": 0.14913,
+        "rrf_score": 0.0241
+      },
+      {
+        "doc_id": "Ddbce6dfb0addeaca",
+        "review_id": "1c99ea0e3859fceac16388d107c7caa4",
+        "order_id": "563374a910b848445e9d0d50a0d65bc7",
+        "source_row": 90991,
+        "review_score": 1,
+        "text": "demora na entrega — demora na entrega",
+        "categories": [
+          "beleza_saude"
+        ],
+        "purchase_date": "2018-06-06",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "demora na entrega — demora na entrega",
+        "chunk_id": "Ddbce6dfb0addeaca_0",
+        "semantic_score": 0.71478,
+        "lexical_score": 0.17623,
+        "rrf_score": 0.023647
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": true,
+      "findings": [
+        {
+          "claim": "Há relato de demora na entrega",
+          "doc_id": "Dab27851cf3562820",
+          "quote": "demora na entrega"
+        }
+      ]
+    },
+    "verification": {
+      "supported": false,
+      "reason": "A citação 'demora na entrega' não especificamente responde à pergunta 'O que os clientes relatam sobre atrasos na entrega?'"
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 9.4
+  },
+  {
+    "question": "Quais relatos mencionam produtos quebrados ou danificados?",
+    "filters": {
+      "scores": [
+        1,
+        2
+      ]
+    },
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "D80652dae0f7e0d9b",
+        "review_id": "cb770d3c460119845882aa6a04606e56",
+        "order_id": "ce7e2fea4efc732fbc5fd04753f2e549",
+        "source_row": 84663,
+        "review_score": 2,
+        "text": "produto veio danificado",
+        "categories": [
+          "perfumaria"
+        ],
+        "purchase_date": "2018-03-18",
+        "order_status": "delivered",
+        "late_delivery": true,
+        "passage": "produto veio danificado",
+        "chunk_id": "D80652dae0f7e0d9b_0",
+        "semantic_score": 0.73232,
+        "lexical_score": 0.0,
+        "rrf_score": 0.016393
+      },
+      {
+        "doc_id": "Da55fb89766e4c659",
+        "review_id": "413cf664c7bfe65acaccebe12fc5f856",
+        "order_id": "f1147937e588f3e556bf8b1d57bf4881",
+        "source_row": 18872,
+        "review_score": 1,
+        "text": "tablets quebrados — alguns tablets de bcaa vieram quebrados, diminuindo a qualidade do produto",
+        "categories": [
+          "esporte_lazer"
+        ],
+        "purchase_date": "2018-06-06",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "tablets quebrados — alguns tablets de bcaa vieram quebrados, diminuindo a qualidade do produto",
+        "chunk_id": "Da55fb89766e4c659_0",
+        "semantic_score": 0.4889,
+        "lexical_score": 0.18017,
+        "rrf_score": 0.016393
+      },
+      {
+        "doc_id": "D789e871b54f98cd0",
+        "review_id": "ef78bcc7bdd2b1177e7d8c35f042de63",
+        "order_id": "b6e1870851fc18da0ef1cafe7b7360c1",
+        "source_row": 45048,
+        "review_score": 1,
+        "text": "Os frasco vieram todos danificados parecendo produtos clandestinos, muito diferente da propaganda",
+        "categories": [
+          "perfumaria"
+        ],
+        "purchase_date": "2018-08-03",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Os frasco vieram todos danificados parecendo produtos clandestinos, muito diferente da propaganda",
+        "chunk_id": "D789e871b54f98cd0_0",
+        "semantic_score": 0.50974,
+        "lexical_score": 0.16414,
+        "rrf_score": 0.016129
+      },
+      {
+        "doc_id": "D8f2a659a42f33419",
+        "review_id": "4e424f744c8185c17c7d275a562ac344",
+        "order_id": "3b9671a31679fa4544b9b7a1e55ffe4f",
+        "source_row": 71603,
+        "review_score": 1,
+        "text": "Produto avariado, quebrado",
+        "categories": [
+          "eletronicos"
+        ],
+        "purchase_date": "2018-01-13",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produto avariado, quebrado",
+        "chunk_id": "D8f2a659a42f33419_0",
+        "semantic_score": 0.6965,
+        "lexical_score": 0.0,
+        "rrf_score": 0.016129
+      },
+      {
+        "doc_id": "D088a092fe7d122d8",
+        "review_id": "21989f91b7c7e52ecb1db35fcf2e31a0",
+        "order_id": "35edfe0ed82ffa12bb88c0395209e513",
+        "source_row": 92989,
+        "review_score": 1,
+        "text": "Comprei 6 termômetros, mas 4 vieram quebrados. Como devo proceder para que sejam trocados?",
+        "categories": [
+          "beleza_saude"
+        ],
+        "purchase_date": "2017-12-19",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Comprei 6 termômetros, mas 4 vieram quebrados. Como devo proceder para que sejam trocados?",
+        "chunk_id": "D088a092fe7d122d8_0",
+        "semantic_score": 0.33836,
+        "lexical_score": 0.11662,
+        "rrf_score": 0.015873
+      },
+      {
+        "doc_id": "D17639df912aa00f0",
+        "review_id": "00eb718f8b71a61b99580b4201d7aac5",
+        "order_id": "f3ab2cdf3ea55d54d480a91a967bb501",
+        "source_row": 34817,
+        "review_score": 1,
+        "text": "Produto quebrado",
+        "categories": [
+          "relogios_presentes"
+        ],
+        "purchase_date": "2018-08-12",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Produto quebrado",
+        "chunk_id": "D17639df912aa00f0_0",
+        "semantic_score": 0.66692,
+        "lexical_score": 0.0,
+        "rrf_score": 0.015873
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": true,
+      "findings": [
+        {
+          "claim": "Há relato de produtos quebrados ou danificados",
+          "doc_id": "D80652dae0f7e0d9b",
+          "quote": "produto veio danificado"
+        },
+        {
+          "claim": "Uma avaliação elogia a entrega antecipada",
+          "doc_id": "Da55fb89766e4c659",
+          "quote": "tablets quebrados — alguns tablets de bcaa vieram quebrados, diminuindo a qualidade do produto"
+        },
+        {
+          "claim": "Uma avaliação elogia a entrega antecipada",
+          "doc_id": "D789e871b54f98cd0",
+          "quote": "Os frasco vieram todos danificados parecendo produtos clandestinos, muito diferente da propaganda"
+        }
+      ]
+    },
+    "verification": {
+      "supported": false,
+      "reason": "O segundo achado não responde diretamente à pergunta 'Quais relatos mencionam produtos quebrados ou danificados?'. Ele fala sobre tablets quebrados e diminuição da qualidade do produto, mas não menciona quebrados ou danificados."
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 23.561
+  },
+  {
+    "question": "Quais elogios se referem à entrega antes do prazo?",
+    "filters": {
+      "scores": [
+        4,
+        5
+      ]
+    },
+    "status": "answered",
+    "findings": [
+      {
+        "claim": "Há relato de entrega antes do prazo",
+        "doc_id": "D2ae118cafbcdf0f2",
+        "quote": "entrega antes do prazo..."
+      },
+      {
+        "claim": "Uma avaliação elogia a entrega antecipada",
+        "doc_id": "D013252d51cfffc2e",
+        "quote": "entrega antes do prazo"
+      },
+      {
+        "claim": "Uma avaliação recomenda entrega antes do prazo",
+        "doc_id": "D43ed4f0c43829fb0",
+        "quote": "Recomendo, entrega antes do prazo."
+      }
+    ],
+    "evidence": [
+      {
+        "doc_id": "D2ae118cafbcdf0f2",
+        "review_id": "46d915b4de5a74710db9ce7de0daf4cd",
+        "order_id": "b1f901eee62050346f7f33fff6e6055d",
+        "source_row": 81389,
+        "review_score": 5,
+        "text": "entrega antes do prazo...",
+        "categories": [
+          "brinquedos"
+        ],
+        "purchase_date": "2017-05-23",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "entrega antes do prazo...",
+        "chunk_id": "D2ae118cafbcdf0f2_0",
+        "semantic_score": 0.74292,
+        "lexical_score": 0.39033,
+        "rrf_score": 0.029236
+      },
+      {
+        "doc_id": "D013252d51cfffc2e",
+        "review_id": "c03196d38b2123c1575484165c46e4f5",
+        "order_id": "5ec8f4e8fe5ee3fd5460b244d0804f9e",
+        "source_row": 79351,
+        "review_score": 5,
+        "text": "entrega antes do prazo",
+        "categories": [
+          "construcao_ferramentas_seguranca"
+        ],
+        "purchase_date": "2018-04-03",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "entrega antes do prazo",
+        "chunk_id": "D013252d51cfffc2e_0",
+        "semantic_score": 0.72946,
+        "lexical_score": 0.39033,
+        "rrf_score": 0.028442
+      },
+      {
+        "doc_id": "D43ed4f0c43829fb0",
+        "review_id": "eb4a62ad5e87be3cffde6f107b242775",
+        "order_id": "2f79d47add1e4f50799767e3088e9630",
+        "source_row": 78456,
+        "review_score": 5,
+        "text": "Recomendo, entrega antes do prazo.",
+        "categories": [
+          "nao_informada"
+        ],
+        "purchase_date": "2017-11-26",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Recomendo, entrega antes do prazo.",
+        "chunk_id": "D43ed4f0c43829fb0_0",
+        "semantic_score": 0.75829,
+        "lexical_score": 0.30515,
+        "rrf_score": 0.025911
+      },
+      {
+        "doc_id": "D3bc1fffadc0ed059",
+        "review_id": "b227f31d828fcb0c2a8a2fc210a001b4",
+        "order_id": "45ec085d1fc0e1539bd857ad32f45c99",
+        "source_row": 6198,
+        "review_score": 4,
+        "text": "Bom, entrega antes do prazo",
+        "categories": [
+          "eletronicos"
+        ],
+        "purchase_date": "2018-02-14",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Bom, entrega antes do prazo",
+        "chunk_id": "D3bc1fffadc0ed059_0",
+        "semantic_score": 0.72667,
+        "lexical_score": 0.30568,
+        "rrf_score": 0.022133
+      },
+      {
+        "doc_id": "D7eeb318614fabea4",
+        "review_id": "cb7238b5128b12f251b0d005f7fe29e0",
+        "order_id": "756445ff67f2676d72ae774c8cb5b0f0",
+        "source_row": 56417,
+        "review_score": 5,
+        "text": "entrega antes do prazo previsto",
+        "categories": [
+          "informatica_acessorios"
+        ],
+        "purchase_date": "2018-01-17",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "entrega antes do prazo previsto",
+        "chunk_id": "D7eeb318614fabea4_0",
+        "semantic_score": 0.71338,
+        "lexical_score": 0.29758,
+        "rrf_score": 0.020518
+      },
+      {
+        "doc_id": "D3c928755d7888be3",
+        "review_id": "7a41efd81fbfb6bbaf72015c62b81134",
+        "order_id": "8bf12a5b441bd86a1edbccb6137c9b0b",
+        "source_row": 69830,
+        "review_score": 5,
+        "text": "ótimo, entrega antes do prazo.",
+        "categories": [
+          "bebes"
+        ],
+        "purchase_date": "2017-09-02",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "ótimo, entrega antes do prazo.",
+        "chunk_id": "D3c928755d7888be3_0",
+        "semantic_score": 0.71205,
+        "lexical_score": 0.29016,
+        "rrf_score": 0.02
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": true,
+      "findings": [
+        {
+          "claim": "Há relato de entrega antes do prazo",
+          "doc_id": "D2ae118cafbcdf0f2",
+          "quote": "entrega antes do prazo..."
+        },
+        {
+          "claim": "Uma avaliação elogia a entrega antecipada",
+          "doc_id": "D013252d51cfffc2e",
+          "quote": "entrega antes do prazo"
+        },
+        {
+          "claim": "Uma avaliação recomenda entrega antes do prazo",
+          "doc_id": "D43ed4f0c43829fb0",
+          "quote": "Recomendo, entrega antes do prazo."
+        }
+      ]
+    },
+    "verification": {
+      "supported": true,
+      "reason": "Todos os achados respondem diretamente à pergunta e são sustentados por suas citações."
+    },
+    "reason": null,
+    "latency_seconds": 14.272
+  },
+  {
+    "question": "O que os clientes relatam sobre a entrega por drones?",
+    "filters": {},
+    "status": "abstained",
+    "findings": [],
+    "evidence": [
+      {
+        "doc_id": "D954facd46def0bd5",
+        "review_id": "256e445ddba830565ad576854f406761",
+        "order_id": "dd6ee4d96f0f3cf1432c3b82818e0387",
+        "source_row": 28980,
+        "review_score": 1,
+        "text": "sem comentarios, muito confusa a informação sobre entrega",
+        "categories": [
+          "cama_mesa_banho"
+        ],
+        "purchase_date": "2017-11-25",
+        "order_status": "delivered",
+        "late_delivery": true,
+        "passage": "sem comentarios, muito confusa a informação sobre entrega",
+        "chunk_id": "D954facd46def0bd5_0",
+        "semantic_score": 0.48405,
+        "lexical_score": 0.1916,
+        "rrf_score": 0.027912
+      },
+      {
+        "doc_id": "D0bfbd8d94f1a8bf8",
+        "review_id": "3e8d5db4d00ba3089292b44a1cdc4fb7",
+        "order_id": "9e1cc8d31c00bfb769e00998a4b665c9",
+        "source_row": 71505,
+        "review_score": 1,
+        "text": "Mas pena que o drone não funciona",
+        "categories": [
+          "brinquedos"
+        ],
+        "purchase_date": "2018-01-24",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Mas pena que o drone não funciona",
+        "chunk_id": "D0bfbd8d94f1a8bf8_0",
+        "semantic_score": 0.67185,
+        "lexical_score": 0.01556,
+        "rrf_score": 0.016393
+      },
+      {
+        "doc_id": "D55c369db5facf319",
+        "review_id": "40a4a1753d4d0ec9b3369d23d31decda",
+        "order_id": "8337da5abde9a018a9ab51bf20aee333",
+        "source_row": 40463,
+        "review_score": 2,
+        "text": "Chegou bem antes do prazo previsto, porém,para o drone H18 entrada não foi compatível. A entrada do meu drone é a JST. Existe algum adaptador para ser adquirido para a ulitização do produto comprado?",
+        "categories": [
+          "market_place"
+        ],
+        "purchase_date": "2017-12-18",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Chegou bem antes do prazo previsto, porém,para o drone H18 entrada não foi compatível. A entrada do meu drone é a JST. Existe algum adaptador para ser adquirido para a ulitização do produto comprado?",
+        "chunk_id": "D55c369db5facf319_0",
+        "semantic_score": 0.57625,
+        "lexical_score": 0.0,
+        "rrf_score": 0.016129
+      },
+      {
+        "doc_id": "De44fff21644335af",
+        "review_id": "f6853e4f1d0f639a934b661f2787aa6f",
+        "order_id": "e5b61208a742effced13b469b54fb4ad",
+        "source_row": 74649,
+        "review_score": 5,
+        "text": "Parabéns pelo compromisso com os clientes",
+        "categories": [
+          "construcao_ferramentas_jardim"
+        ],
+        "purchase_date": "2018-05-05",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Parabéns pelo compromisso com os clientes",
+        "chunk_id": "De44fff21644335af_0",
+        "semantic_score": 0.30728,
+        "lexical_score": 0.29367,
+        "rrf_score": 0.016129
+      },
+      {
+        "doc_id": "D8e31a61d7e131ff2",
+        "review_id": "bfb4d7f7e81154ccdccb9ac0edbfa2bd",
+        "order_id": "d4868446e3093ed6d2174805c3e64938",
+        "source_row": 67224,
+        "review_score": 5,
+        "text": "Parabéns pelo atenção com os clientes... 😚",
+        "categories": [
+          "telefonia"
+        ],
+        "purchase_date": "2017-10-17",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "Parabéns pelo atenção com os clientes... 😚",
+        "chunk_id": "D8e31a61d7e131ff2_0",
+        "semantic_score": 0.30272,
+        "lexical_score": 0.28581,
+        "rrf_score": 0.015873
+      },
+      {
+        "doc_id": "Dbdd560c18c5ee590",
+        "review_id": "6a4d0426ed5c1f61bbdc1a03aa9f499b",
+        "order_id": "4bb429b2f70ff5c85e7fdcecb5efa852",
+        "source_row": 54369,
+        "review_score": 2,
+        "text": "O drone é lindo , porém a bateria não dura nada, e é um pouco chatinho de montar.",
+        "categories": [
+          "brinquedos"
+        ],
+        "purchase_date": "2017-12-26",
+        "order_status": "delivered",
+        "late_delivery": false,
+        "passage": "O drone é lindo , porém a bateria não dura nada, e é um pouco chatinho de montar.",
+        "chunk_id": "Dbdd560c18c5ee590_0",
+        "semantic_score": 0.55548,
+        "lexical_score": 0.0,
+        "rrf_score": 0.015873
+      }
+    ],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "generation_payload": {
+      "sufficient": true,
+      "findings": [
+        {
+          "claim": "Há relato de demora na entrega",
+          "doc_id": "D954facd46def0bd5",
+          "quote": "sem comentarios, muito confusa a informação sobre entrega"
+        },
+        {
+          "claim": "Uma avaliação elogia a entrega antecipada",
+          "doc_id": "D8e31a61d7e131ff2",
+          "quote": "Parabéns pelo atenção com os clientes... 😚"
+        },
+        {
+          "claim": "Uma avaliação elogia a entrega antecipada",
+          "doc_id": "Dbdd560c18c5ee590",
+          "quote": "O drone é lindo , porém a bateria não dura nada, e é um pouco chatinho de montar."
+        }
+      ]
+    },
+    "verification": {
+      "supported": false,
+      "reason": "O segundo achado não responde diretamente à pergunta 'O que os clientes relatam sobre a entrega por drones?'. O primeiro achado menciona demora na entrega, mas não especifica que isso seja sobre entrega por drones."
+    },
+    "reason": "Não foi possível produzir uma resposta com evidências e citações verificáveis para esta pergunta.",
+    "latency_seconds": 17.855
+  },
+  {
+    "question": "Qual é a capital da França?",
+    "filters": {},
+    "status": "abstained",
+    "findings": [],
+    "evidence": [],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "reason": "A pergunta está fora do escopo de experiências de compra relatadas nas avaliações.",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "Como foi a entrega em 2026?",
+    "filters": {},
+    "status": "abstained",
+    "findings": [],
+    "evidence": [],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "reason": "A base é histórica (2016–2018) e não permite responder sobre períodos atuais ou futuros.",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "Qual o percentual de clientes com atrasos?",
+    "filters": {},
+    "status": "abstained",
+    "findings": [],
+    "evidence": [],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "reason": "Percentuais e totais de temas exigem classificação e agregação de toda a base; top-k não estima frequência populacional.",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "Há reclamações sobre a entrega?",
+    "filters": {
+      "category": "categoria_inexistente"
+    },
+    "status": "abstained",
+    "findings": [],
+    "evidence": [],
+    "notice": "Exemplos recuperados; não representam a frequência dos temas em toda a base.",
+    "reason": "Não encontrei evidências suficientemente relevantes com os filtros selecionados.",
+    "latency_seconds": 0.017
+  }
+]

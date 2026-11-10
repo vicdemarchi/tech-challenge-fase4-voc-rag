@@ -1,0 +1,8 @@
+[
+ {"question":"Clientes receberam um produto diferente do que compraram?", "filters":{"scores":[1,2]}, "expected":"answered"},
+ {"question":"O que dizem os clientes que receberam apenas parte do pedido?", "filters":{"scores":[1,2]}, "expected":"answered"},
+ {"question":"Quais elogios mencionam a qualidade dos produtos?", "filters":{"scores":[4,5]}, "expected":"answered"},
+ {"question":"Qual combustível é utilizado nos caminhões de entrega?", "filters":{}, "expected":"abstained"},
+ {"question":"Qual era a senha do sistema de atendimento da loja?", "filters":{}, "expected":"abstained"},
+ {"question":"Qual era a temperatura do depósito onde o produto ficou armazenado?", "filters":{}, "expected":"abstained"}
+]

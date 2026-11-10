@@ -1,0 +1,14 @@
+{
+  "demo_expected_status_matches": 8,
+  "demo_cases": 8,
+  "additional_expected_status_matches": 4,
+  "additional_cases": 6,
+  "additional_answerable_answered": 1,
+  "additional_answerable_cases": 3,
+  "additional_unanswerable_abstained": 3,
+  "additional_unanswerable_cases": 3,
+  "returned_quotes_valid": 10,
+  "returned_quotes_total": 10,
+  "infrastructure_errors": 0,
+  "interpretation": "Verificação exploratória e de regressão, com reuso dos casos após ajustes; não é teste independente nem acurácia semântica."
+}

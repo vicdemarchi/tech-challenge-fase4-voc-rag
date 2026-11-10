@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "sentence-transformers": "6.2.0",
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cpu",
+    "tokenizers": "0.23.3",
+    "streamlit": "1.67.0",
+    "llama-cpp-python": "0.3.36",
+    "pytest": "9.2.0"
+  },
+  "llm_backend_tested": "llamacpp",
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "llm_model": "Qwen2.5-3B-Instruct-GGUF Q4_K_M",
+  "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "llamacpp_context": 3072,
+  "llamacpp_batch": 128,
+  "llamacpp_microbatch": 64,
+  "model_lifetime": "embedding released before LLM; each llama.cpp call executed in a fresh subprocess"
+}

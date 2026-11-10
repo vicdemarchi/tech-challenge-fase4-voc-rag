@@ -1,0 +1,242 @@
+[
+  {
+    "query_id": "Q01",
+    "mode": "lexical",
+    "ids": [
+      "Dcb1ddb4c1f805e35",
+      "D359c8237dc744126",
+      "Dbd1a78e2d65b5a00"
+    ],
+    "latency_seconds": 0.0565
+  },
+  {
+    "query_id": "Q01",
+    "mode": "dense",
+    "ids": [
+      "D131b1ccc81b2018d",
+      "Dab27851cf3562820",
+      "D3b1172ad95bd7103"
+    ],
+    "latency_seconds": 0.107
+  },
+  {
+    "query_id": "Q01",
+    "mode": "hybrid",
+    "ids": [
+      "Dab27851cf3562820",
+      "De32de68da0aa3899",
+      "D264d4aef90430ef9"
+    ],
+    "latency_seconds": 0.1021
+  },
+  {
+    "query_id": "Q02",
+    "mode": "lexical",
+    "ids": [
+      "Da55fb89766e4c659",
+      "D789e871b54f98cd0",
+      "D088a092fe7d122d8"
+    ],
+    "latency_seconds": 0.1262
+  },
+  {
+    "query_id": "Q02",
+    "mode": "dense",
+    "ids": [
+      "D80652dae0f7e0d9b",
+      "D8f2a659a42f33419",
+      "D17639df912aa00f0"
+    ],
+    "latency_seconds": 0.053
+  },
+  {
+    "query_id": "Q02",
+    "mode": "hybrid",
+    "ids": [
+      "D80652dae0f7e0d9b",
+      "Da55fb89766e4c659",
+      "D789e871b54f98cd0"
+    ],
+    "latency_seconds": 0.1106
+  },
+  {
+    "query_id": "Q03",
+    "mode": "lexical",
+    "ids": [
+      "D013252d51cfffc2e",
+      "D04fa6af7b39ec7b1",
+      "D218d4380975f2b89"
+    ],
+    "latency_seconds": 0.0728
+  },
+  {
+    "query_id": "Q03",
+    "mode": "dense",
+    "ids": [
+      "Dd9287894312d04d8",
+      "D59d39c80eb9f497c",
+      "Db4669f6b87aa6256"
+    ],
+    "latency_seconds": 0.1107
+  },
+  {
+    "query_id": "Q03",
+    "mode": "hybrid",
+    "ids": [
+      "D2ae118cafbcdf0f2",
+      "D013252d51cfffc2e",
+      "D43ed4f0c43829fb0"
+    ],
+    "latency_seconds": 0.0652
+  },
+  {
+    "query_id": "Q04",
+    "mode": "lexical",
+    "ids": [
+      "D00417fc6e90ee4fe",
+      "Df5981d50c0f290a6",
+      "D21df1b0731568a97"
+    ],
+    "latency_seconds": 0.1033
+  },
+  {
+    "query_id": "Q04",
+    "mode": "dense",
+    "ids": [
+      "Dc36ba0d2fde8634a",
+      "D1f398f3712bad749",
+      "D20e55201ec11db67"
+    ],
+    "latency_seconds": 0.0371
+  },
+  {
+    "query_id": "Q04",
+    "mode": "hybrid",
+    "ids": [
+      "D43ffe8d8a7ac0d2d",
+      "D5dcd295b8442ca02",
+      "D00417fc6e90ee4fe"
+    ],
+    "latency_seconds": 0.1119
+  },
+  {
+    "query_id": "Q05",
+    "mode": "lexical",
+    "ids": [
+      "D15123b37cf2d9d6e",
+      "D3aeffb6814bc500e",
+      "Ddcc2a98696055a68"
+    ],
+    "latency_seconds": 0.1075
+  },
+  {
+    "query_id": "Q05",
+    "mode": "dense",
+    "ids": [
+      "Dd9afcc5ebe6308e0",
+      "Dcf0768324c1162a4",
+      "D2da5325b35bc9a88"
+    ],
+    "latency_seconds": 0.0477
+  },
+  {
+    "query_id": "Q05",
+    "mode": "hybrid",
+    "ids": [
+      "D3aeffb6814bc500e",
+      "Dbf8d8df598acc6c8",
+      "D15123b37cf2d9d6e"
+    ],
+    "latency_seconds": 0.0364
+  },
+  {
+    "query_id": "Q06",
+    "mode": "lexical",
+    "ids": [
+      "D4250957bb632da0c",
+      "Dee76ab730230ed85",
+      "Dc02767174a262fa1"
+    ],
+    "latency_seconds": 0.0602
+  },
+  {
+    "query_id": "Q06",
+    "mode": "dense",
+    "ids": [
+      "Deec7ac627180225d",
+      "D75b9ddeaee36dcd5",
+      "D60e00ba3dc6e8121"
+    ],
+    "latency_seconds": 0.1128
+  },
+  {
+    "query_id": "Q06",
+    "mode": "hybrid",
+    "ids": [
+      "D60e00ba3dc6e8121",
+      "D1908b2408c28d551",
+      "D1af071e41fa6a24e"
+    ],
+    "latency_seconds": 0.0885
+  },
+  {
+    "query_id": "Q07",
+    "mode": "lexical",
+    "ids": [
+      "D3b0fbaff2f08ac77",
+      "Dc3377086740d7855",
+      "Dc2a71b0224ebdb43"
+    ],
+    "latency_seconds": 0.0859
+  },
+  {
+    "query_id": "Q07",
+    "mode": "dense",
+    "ids": [
+      "De56633f9312f0dc2",
+      "D2da5325b35bc9a88",
+      "D555ea5a8d235d905"
+    ],
+    "latency_seconds": 0.0366
+  },
+  {
+    "query_id": "Q07",
+    "mode": "hybrid",
+    "ids": [
+      "Dc3377086740d7855",
+      "De56633f9312f0dc2",
+      "D82c5df2588ed6aa4"
+    ],
+    "latency_seconds": 0.0803
+  },
+  {
+    "query_id": "Q08",
+    "mode": "lexical",
+    "ids": [
+      "D4920ef5fd273dcbc",
+      "D183197cf34bb9a26",
+      "D4fe2b95fb3000512"
+    ],
+    "latency_seconds": 0.0459
+  },
+  {
+    "query_id": "Q08",
+    "mode": "dense",
+    "ids": [
+      "D2418a48ab0284ee7",
+      "Db6d369fc704befad",
+      "D0161e851325ffb23"
+    ],
+    "latency_seconds": 0.0691
+  },
+  {
+    "query_id": "Q08",
+    "mode": "hybrid",
+    "ids": [
+      "Dd5f70d2c045a2f97",
+      "D230e3caafc44100d",
+      "D2418a48ab0284ee7"
+    ],
+    "latency_seconds": 0.0513
+  }
+]

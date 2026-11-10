@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "olist-voc-rag"
+version = "1.0.0"
+description = "Voice of Customer com recuperação híbrida e evidências verificáveis"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "scikit-learn>=1.5,<2", "sentence-transformers==6.2.0", "streamlit>=1.40,<2"]
+[project.optional-dependencies]
+local = ["llama-cpp-python>=0.3,<0.4"]
+test = ["pytest>=8,<10"]
+report = ["reportlab>=4,<5"]
+[project.scripts]
+voc = "voc.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

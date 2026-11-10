@@ -1,0 +1,12 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "documents": 42687,
+  "passages": 42692,
+  "chunk_tokens": 100,
+  "overlap_tokens": 20,
+  "documents_sha256": "cee9bed20121931131c133fe4c08edd0d4066911771bbe511771a1a8458db441",
+  "vectors_sha256": "a157cbc5daaa70a741f085a63390e96253a702fe7c46e3f89fca761aaa2c7944",
+  "passages_sha256": "48253b670bc36f22a44330d8bf2b7c0c9736fc68726f67642a721e762dc29008",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42"
+}

@@ -1,0 +1,11 @@
+{
+  "method": "Streamlit AppTest com base real e configuração local; sem inferência generativa neste teste",
+  "checks": {
+    "initial_load": true,
+    "document_count": true,
+    "out_of_scope_message": true,
+    "empty_scores_validation": true
+  },
+  "visual_browser_check": false,
+  "note": "Renderização em navegador não validada neste ambiente; revisar no Windows antes de gravar."
+}
