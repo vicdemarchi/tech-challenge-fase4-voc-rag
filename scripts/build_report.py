@@ -66,7 +66,7 @@ story += [Spacer(1,22),p('IAST / PÓS TECH / FASE 4','SmallX'),p('Escuta\nVoice 
     Spacer(1,20),p('Viviane Demarchi','H2X'),p('Relatório técnico complementar · 09 de novembro de 2026'),
     p('Objetivo','H2X'),p('Permitir que gestores investiguem reclamações e elogios em linguagem natural, com acesso aos comentários que sustentam cada achado. O sistema reconhece limitações de escopo e não apresenta a amostra recuperada como uma estatística de toda a base.'),
     p('Entregas e situação','H2X'),p('Código, documentação, auditoria, testes e execuções reais compõem o pacote. Publicação no GitHub e gravação do vídeo dependem da finalização na conta e no computador da aluna. Este PDF não substitui os dois entregáveis exigidos no briefing.'),
-    p('O resultado de avaliação é exploratório. Nenhum valor apresentado representa garantia de nota acadêmica ou de desempenho em produção.','SmallX'),PageBreak()]
+    p('O resultado de avaliação é exploratório. Os resultados não representam uma medição de desempenho geral em produção.','SmallX'),PageBreak()]
 
 story += [p('01 / Base de conhecimento','SmallX'),p('Preservar o sentido e a origem','H1X'),
     p('Foram usados os quatro arquivos oficiais de avaliações, pedidos, itens e produtos. A seleção mantém registros com título ou comentário; a falta de texto não é preenchida artificialmente.'),
@@ -104,12 +104,12 @@ for result in demos[3:]:
     story += [p(result['question']+(' (categoria inexistente)' if result['filters'].get('category')=='categoria_inexistente' else '')+' — '+{'answered':'respondida','abstained':'abstenção','error':'erro'}[result['status']],'SmallX')]
 story += [p('Os exemplos acima foram obtidos na execução, não redigidos como se fossem respostas do sistema. As evidências completas, filtros e tempos estão no JSON da demonstração.','SmallX'),PageBreak()]
 
-story += [p('05 / Reprodução e entrega','SmallX'),p('Uma solução que pode ser conferida','H1X'),
-    table([['PASSO','ONDE CONFERIR'],['Instalar e preparar','README.md e docs/COMECE_AQUI.md'],['Reproduzir a recuperação','scripts/evaluate_retrieval.py e evaluation/qrels.json'],['Reproduzir respostas','scripts/run_demo.py; LLM local deve estar disponível'],['Verificar requisitos','docs/MATRIZ_REQUISITOS.md'],['Gravar a apresentação','docs/ROTEIRO_VIDEO.md; limite de 7 minutos'],['Publicar a entrega','GitHub público; verificar acesso sem login']],[200,311]),
-    p('Escopo da validação','H2X'),p('A execução de referência usa Linux, CPU e backend llama.cpp. O caminho Ollama foi implementado para facilitar o uso no Windows, mas não se apresenta como validado ponta a ponta neste ambiente. Versões, hashes e resultados estão em evidence/. Downloads iniciais exigem internet. A inspeção visual da interface no Windows segue pendente.'),
+story += [p('05 / Reprodução','SmallX'),p('Uma solução que pode ser conferida','H1X'),
+    table([['PASSO','ONDE CONFERIR'],['Instalar e preparar','README.md'],['Reproduzir a recuperação','scripts/evaluate_retrieval.py e evaluation/qrels.json'],['Reproduzir respostas','scripts/run_demo.py; LLM local deve estar disponível'],['Verificar requisitos','docs/MATRIZ_REQUISITOS.md']],[200,311]),
+    p('Escopo da validação','H2X'),p('A execução de referência usa Linux, CPU e backend llama.cpp. A interface com Ollama foi verificada manualmente no Windows em três consultas: atrasos, elogios à entrega antecipada e pergunta fora do período da base. Versões, hashes e resultados estão em evidence/. Downloads iniciais exigem internet. Essa verificação pontual não substitui a avaliação quantitativa de referência.'),
     p('Próximos passos técnicos','H2X'),p('Ampliar perguntas e anotadores independentes; calibrar limiares de abstenção; testar reranker multilíngue; acrescentar classificação temática e agregação para frequências. Aplicações públicas exigiriam autenticação, controles de acesso e revisão de privacidade.'),
     p('Fontes principais','H2X'),p('Dados: Olist / Kaggle, Brazilian E-Commerce Public Dataset, licença CC BY-NC-SA 4.0. Modelos: Sentence Transformers / MiniLM multilíngue e Qwen2.5-3B-Instruct-GGUF, conforme model cards. Bibliografia e URLs completas: docs/REFERENCIAS.md. Requisitos acadêmicos: briefing [IAST] Tech Challenge Fase 4, pp. 6–10.'),
-    p('A trilha Databricks mencionada no briefing é opcional e exige conclusão e comprovação reais pela aluna. O pacote não inclui certificado nem reivindica a bonificação.','SmallX')]
+    p('O bônus opcional Databricks não integra o escopo implementado; não há reivindicação de bonificação.','SmallX')]
 SimpleDocTemplate(str(OUT),pagesize=(595.28,841.89),rightMargin=42,leftMargin=42,topMargin=55,bottomMargin=48,
                   title='Escuta - Relatório Técnico - Tech Challenge Fase 4',author='Viviane Demarchi').build(story,onFirstPage=footer,onLaterPages=footer)
 print(OUT)

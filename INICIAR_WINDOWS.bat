@@ -1,7 +1,7 @@
 @echo off
 cd /d "%~dp0"
 if not exist ".venv\Scripts\python.exe" (
-  echo Ambiente Python nao encontrado. Siga docs\COMECE_AQUI.md.
+  echo Ambiente Python nao encontrado. Siga README.md.
   pause
   exit /b 1
 )

@@ -19,4 +19,4 @@
 
 `development_v1.json`, `development_v2.json` e `development_v3.json` registram configurações intermediárias, incluindo falhas identificadas. `baseline_conservative_demo.json` e `baseline_conservative_additional.json` registram a configuração com verificação global, anterior à decisão individual por achado. A versão final está nos arquivos indicados na tabela acima.
 
-As avaliações e os julgamentos são assistidos por IA. A interpretação e os limites estão em `docs/AVALIACAO.md`. Nenhum arquivo constitui promessa de acurácia geral ou garantia de nota.
+As avaliações e os julgamentos são assistidos por IA. A interpretação e os limites estão em `docs/AVALIACAO.md`. Os resultados não constituem uma medição de acurácia geral.

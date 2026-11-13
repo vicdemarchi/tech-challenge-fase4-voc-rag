@@ -58,11 +58,9 @@ Os testes usam pequenas fixtures sintéticas explicitamente separadas dos dados 
 
 Quatro verificações passaram via Streamlit AppTest com a base real e a configuração local (sem inferência generativa nessa verificação): carregamento, contagem de documentos, recusa fora de escopo e validação de seleção vazia de notas. O arquivo `evidence/interface_test.json` registra o método.
 
-A inspeção visual em navegador não foi concluída neste ambiente. O navegador disponível não conseguiu acessar o serviço local; a execução visual no Windows e o caminho Ollama precisam ser conferidos antes da gravação. O backend de geração efetivamente medido é llama.cpp.
+Em 13/11/2026, a interface foi inspecionada manualmente no Windows com Ollama e Qwen2.5:3b. Foram observadas respostas com fontes para atrasos (notas 1 e 2) e elogios à entrega antecipada (notas 4 e 5), além da abstenção para uma pergunta sobre 2026. Houve um HTTPError inicial; após execução direta do modelo no terminal, a nova tentativa na interface respondeu. Essa verificação pontual não equivale a um benchmark do backend Ollama. As métricas e os JSONs de geração versionados permanecem referentes ao backend llama.cpp.
 
-A revisão da interface no navegador segue pendente; as verificações automatizadas não substituem a inspeção visual.
-
-O workflow de GitHub Actions está preparado para os testes, mas não se afirma execução remota antes de existir um resultado do GitHub.
+Os 29 testes automatizados também passaram no GitHub Actions: [execução de referência](https://github.com/vicdemarchi/tech-challenge-fase4-voc-rag/actions/runs/42726554639).
 
 ## 6. Ameaças à validade e próximos passos
 

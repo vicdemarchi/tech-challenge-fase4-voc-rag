@@ -7,15 +7,13 @@ Investigue avaliações reais da Olist em português, com recuperação híbrida
 
 > Dados históricos, de 2016 a 2018. A aplicação não representa a operação atual da Olist. O resultado de uma busca não mede a frequência de temas em toda a base.
 
-## Entrega e evidências
+## Documentação e evidências
 
 - Código completo: `src/voc/`, interface `app.py` e `tests/`.
 - Auditoria executada na base oficial: `evidence/data_audit.json`.
 - Comparação de recuperação e protocolo: `evaluation/` e `evidence/retrieval_metrics.json`.
 - Execuções reais de perguntas e respostas: `evidence/demo_runs.json`.
 - Arquitetura e escolhas: `docs/ARQUITETURA.md`.
-- Guia Windows para começar: `docs/COMECE_AQUI.md`.
-- Roteiro de vídeo até 7 minutos: `docs/ROTEIRO_VIDEO.md`.
 - Correspondência com briefing: `docs/MATRIZ_REQUISITOS.md`.
 - Limitações e resultados: `docs/AVALIACAO.md`.
 
@@ -170,10 +168,6 @@ Dados: Olist, **Brazilian E-Commerce Public Dataset by Olist**, Kaggle, https://
 
 Modelos: MiniLM multilíngue (Apache-2.0) e Qwen2.5-3B-Instruct-GGUF (Qwen Research License), conforme seus model cards. Os pesos não são redistribuídos neste repositório. Consulte `docs/REFERENCIAS.md`.
 
-## Publicação e entrega
-
-O briefing exige **repositório GitHub público** e **vídeo de até 7 minutos**. O ZIP é uma forma de transportar os arquivos, não substitui o link do GitHub. Publique os fontes, documentação, testes e evidências. Não publique `.venv`, pesos de modelos, `.env`, caches ou credenciais. A inclusão dos CSVs não é necessária porque o download está automatizado.
-
-### Regerar o relatório complementar
+## Regerar o relatório complementar
 
 O PDF não é necessário para executar a aplicação. Para regerá-lo no ambiente Linux de referência, instale o extra `.[report]`, tenha as fontes DejaVu em `/usr/share/fonts/truetype/dejavu/` e execute `python scripts/build_report.py` após produzir o índice e as evidências. A aplicação e o guia de execução não dependem dessas fontes.

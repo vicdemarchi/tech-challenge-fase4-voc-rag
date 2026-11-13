@@ -17,13 +17,11 @@
 | Perguntas sem evidências | Abstenção por escopo, busca vazia ou validação | Demonstração de período inexistente, filtros vazios e premissa sem suporte |
 | Rastreabilidade | review_id, order_id, doc_id, chunk_id, posição do registro | Expandir fonte e baixar investigação em JSON |
 | Metadados (opcional) | Nota, período, categoria e atraso | Filtros na barra lateral; testes de aplicação antes do top-k |
-| Código e instruções | Pacote Python, README e guia Windows | Instalação, download, preparo, índice, aplicação e testes |
+| Código e instruções | Pacote Python e README | Instalação, download, preparo, índice, aplicação e testes |
 | Arquitetura e tecnologias | Diagrama e contratos dos componentes | `README.md`, `docs/ARQUITETURA.md` |
 | Justificativas técnicas | Dados, granularidade, busca, modelo e limites | README, relatório e avaliação |
 | Exemplos de perguntas e respostas | Saídas reais, com falhas e recusas documentadas | `evidence/demo_runs.json` |
 | Reprodução | Revisão do embedding, hashes e versões | `requirements-validated.txt`, `evidence/environment.json` |
-| Repositório público GitHub | Requer publicação externa confirmada | Conferir link público ao finalizar a entrega |
-| Vídeo de até 7 minutos | Roteiro de aproximadamente 6min20s preparado | `docs/ROTEIRO_VIDEO.md`; gravação pela aluna ainda necessária |
-| Bônus Databricks (opcional) | Não executado | Exige conclusão real e comprovante da aluna |
-
-O briefing não fornece pesos individuais de uma rubrica nem garante nota por tecnologia. Esta matriz demonstra cobertura e torna as pendências visíveis; não promete nota.
+| Repositório público GitHub | Publicado | https://github.com/vicdemarchi/tech-challenge-fase4-voc-rag |
+| Vídeo de até 7 minutos | Material complementar de apresentação | Arquivo de vídeo submetido separadamente |
+| Bônus Databricks (opcional) | Não executado | Sem reivindicação de bonificação |
